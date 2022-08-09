@@ -97,6 +97,7 @@ function countdown() {
       minDisplay.style.color = 'red'
       secDisplay.style.color = 'red'
       timerDisplay.style.color = 'red'
+      vibrate()
       alarm.play()
       return
 
@@ -267,5 +268,11 @@ function fireplaceOn(){
     fireplaceBg.play()
   }else{
     fireplaceBg.pause()
+  }
+}
+
+function vibrate(){
+  if(navigator){
+    navigator.vibrate([2000, 1000, 3000])
   }
 }
