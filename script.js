@@ -58,6 +58,12 @@ hrDisplay.addEventListener('wheel', hrUp)
 minDisplay.addEventListener('wheel', mnUp)
 secDisplay.addEventListener('wheel', scUp)
 
+hrDisplay.disabled = true
+minDisplay.disabled = true
+secDisplay.disabled = true
+
+
+
 alarm.loop = true
 forestBg.loop = true
 cafeBg.loop = true
@@ -145,7 +151,7 @@ function subFive() {
   let hours = Number(hrDisplay.value)
   let minutes = Number(minDisplay.value)
   let seconds = Number(secDisplay.value)
-  if (minutes > 0) {
+  if (minutes >= 5) {
     updateDisplay(hours, (minutes - 5), seconds);
   }
 }
@@ -263,3 +269,12 @@ function fireplaceOn(){
     fireplaceBg.pause()
   }
 }
+function noClick(){
+hrDisplay.addEventListener("keypress", (event) => {
+  event.preventDefault();
+})
+}
+
+
+minDisplay
+secDisplay
