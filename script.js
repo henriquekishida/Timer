@@ -269,12 +269,3 @@ function fireplaceOn(){
     fireplaceBg.pause()
   }
 }
-function noClick(){
-hrDisplay.addEventListener("keypress", (event) => {
-  event.preventDefault();
-})
-}
-
-
-minDisplay
-secDisplay
