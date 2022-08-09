@@ -133,6 +133,7 @@ function setTime() {
 }
 
 function stop() {
+  navigator.vibrate([])
   alarm.pause()
   reset()
   clearTimeout(timerTimeout)
@@ -273,6 +274,6 @@ function fireplaceOn(){
 
 function vibrate(){
   if(navigator){
-    navigator.vibrate([2000, 1000, 3000])
+    navigator.vibrate([1000, 800, 1000, 800, 1000])
   }
 }
