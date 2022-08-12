@@ -275,4 +275,5 @@ function vibrate(){
   if(hours == 0 && minutes == 0 && seconds == 0){
     navigator.vibrate([1000, 800, 1000, 800, 1000])
   }
+  return vibrate()
 }
