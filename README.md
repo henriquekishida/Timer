@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Timer</h1>
+  <h1>⏱Timer</h1>
 </div>
 
 Welcome to my first project using JS!
@@ -24,7 +24,7 @@ Changes include:
 
 <div align="center">
   
-<h2><a href="https://henriquekishida.github.io/Timer/">  DEPLOY </h2></a>
+<h2><a href="https://henriquekishida.github.io/Timer/"> 🖱DEPLOY </h2></a>
   
 To check how it works and give it a try, click the link above.
 </div>
