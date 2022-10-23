@@ -24,7 +24,7 @@ Changes include:
 
 <div align="center">
   
-<a href="https://henriquekishida.github.io/Timer/"> <h2> DEPLOY </h2></a>
+<h2><a href="https://henriquekishida.github.io/Timer/">  DEPLOY </h2></a>
   
 To check how it works and give it a try, click the link above.
 </div>
